@@ -1,16 +1,17 @@
-Prerequisites:
-o	Angular CLI: 9.0.1
-o	Node: 12.15.0
+# Prerequisites
 
-Installation Guide:
-o	npm install -g @angular/cli
+Angular CLI: 9.0.1
+Node: 12.15.0
 
-To Install necessary dependencies follow below commands 
-o	npm install 
-o	npm install -g typescript ts-node
-o	npm install --save @types/express express body-parser  nodemon
-o	npm i @types/cors
-o	npm i n-readlines
+## Installation Guide:
 
-Start the server
-o	“npm start”
+npm install -g @angular/cli
+
+## To Install necessary dependencies follow below commands & Start the server
+
+npm install 
+npm install -g typescript ts-node
+npm install --save @types/express express body-parser  nodemon
+npm i @types/cors
+npm i n-readlines
+“npm start”

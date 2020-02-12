@@ -50,7 +50,7 @@ export class ParseTextController{
 				var records = destLine.toString('ascii').split(" ");
 				for(var n=0;n<records.length;++n){
 					var str = records[n].toLowerCase();
-					if(str.indexOf('oliver') !== -1){
+					if(str.indexOf(groupArr[i].toLowerCase()) !== -1){
 						totalCnt++;						
 					}
 				}	
